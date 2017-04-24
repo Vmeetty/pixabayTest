@@ -31,7 +31,6 @@ class ImagesViewController: UIViewController {
             self.present(alert, animated: true)
         }
     }
-    
 }
 
 extension ImagesViewController: UITableViewDataSource {

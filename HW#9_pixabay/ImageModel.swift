@@ -26,8 +26,6 @@ class ImageModel {
         tags = t
         previewURL = pw
         imgURL = img
-        
-
     }
     
     static func parsJsonFromGetPosts (json: JSON) -> [ImageModel] {
