@@ -22,7 +22,7 @@ class DetailCollectionViewCell: UICollectionViewCell {
         super.awakeFromNib()
         photoImageView.contentMode = .scaleAspectFit
         photoImageView.clipsToBounds = true
-        photoImageView.backgroundColor = UIColor.white
+        photoImageView.backgroundColor = UIColor.black
     }
     
     func configXibCell () {
